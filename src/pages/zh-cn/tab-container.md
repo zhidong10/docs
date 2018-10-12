@@ -16,7 +16,7 @@ Vue.component(TabContainerItem.name, TabContainerItem);
 ## 例子
 
 改变 ative 的值，与 `<tab-container-item>` 的 id 一致即显示对应页面。
-
+如`<tab-container-item>`：带v-model="active" ，data中active的值设置为tab-container1 ，则显示内容1，可实现动态修改。
 ```html
 <mt-tab-container :active.sync="active">
   <mt-tab-container-item id="tab-container1">
